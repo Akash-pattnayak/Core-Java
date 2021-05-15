@@ -1,0 +1,59 @@
+Lexical Issues
+ Java source code consists of sysmbols,words....
+  whitespace,identifiers,literals,comments,operators,separators and keywords
+
+  Whitespace:
+     tab,newline and carriage return
+      \t,  \n,      \r    
+
+        Identifier:
+          [A-Z],[a-z],[0-9],_,$
+          No space
+          Starting:no number
+          we can't use reserved words(Keywords)
+          No query Language keywords
+          Valid identifier: AvgTemp,count,a4,$test,this_is_ok
+          invalid identifier:9s,high-temp,Not/ok
+
+          Literals:
+             A constant value in java is created by using literal representation of it.
+             int age = 45;// age= valiable,int = data type,45 = literal
+             double amount = 56.2784563745// literals = 56.2784563745
+             String name = "Akash// literals = Akash
+
+             int decimal = 100;
+             int octal = 0144
+             int hexa = ox64
+
+        Comments:
+          1.Multi-line comments ===>/* This is Multi-line Comment */
+          2.Single-line Comments ===>// This is Single-line Comments
+          3.Documentation comment ===>/** Documentation comment */
+             it's also called as doc commentThis type of comment is used to produce an HTML file that
+             documents your program.
+             We can use include required HTML tags inside the description part
+
+        Separators:
+          A separator is a sysmbol that is used to separate a group of code from one from one another is 
+          called as separators in java
+          Ex:
+              1.()--Parentheses-->i.List of parameters in method
+                     ii.defining precedence in expression
+                     ii.containing expression in control statements
+                     iii.Surrounding cast types
+                     //int var1 100;
+                     // float var2 = (float) var1;
+              2.{} -- Braces--> i.Initialization of array
+                               ii.Define block of code,class,methods,local scodpe
+              3.[] -- Brackets--> i.Declare Array types.
+                                 ii.Deferencing arrays value
+              4.; -- Semicolon--> Terminates statements
+              5., --Comma--> Separates consecutive identifiers in a variable declaration
+              6..-- Period --> Separateds package names from subpackages and classes,variable or method from 
+                     reference variable
+              7.::--Colons --> Used to create a method or constructor reference(Added by JDK8)
+
+         Java Keywords:
+          Keywords predefined ,reserved words used in java programming that have special meanings to 
+          compiler.
+          There are 50 keywords in java.
